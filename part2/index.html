@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="navContainer">
+        <!-- Navigation Bar Container -->
+        <h1 class="navTitle">Network</h1>
+    </div>
+    <div class="headerContainer">
+        <!-- Container for the Header -->
+        <h1 class="navTitle">Your Feed</h1>
+    </div>
+    <div class="profileContainer">
+        <!-- Body Container -->
+        <div class="profileCard">
+            <!-- Container for Profile Card -->
+            <img src="images/BryantPark.jpeg" class="profPic" alt="Profile Pic">
+            <h3 class="emphasis">Add an avatar</h3>
+            <h1 class="name">Elaine Corpin</h1>
+        </div>
+        <div class="feedColumn">
+            <!-- Container for Feed Column -->
+            <div class="users">
+                <!-- Comment Card of Neil -->
+                <div class="userProf">
+                    <h3 class="nameUser">Neil M</h3>
+                    <h3 id="count">9 like(s)</h3>
+                    <button onclick="addLike(this)" id="Like">Like</button>
+                </div>
+                <div class="comment">
+                    <p>I just set up this new discord bot, let me know what you all think. <span class="link">link.</span></p>
+                </div>
+            </div>
+            <div class="users">
+                <!-- Comment Card of Nichole -->
+                <div class="userProf">
+                    <h3 class="nameUser">Nichole K</h3>
+                    <h3 id="count1">12 like(s)</h3>
+                    <button onclick="addLike1(this)" id="Like">Like</button>
+                </div>
+                <div class="comment">
+                    <p>Just finished my <span class="link">new comic</span>, check it out.</p>
+                </div>
+            </div>
+            <div class="users">
+                <!-- Comment Card of Jim -->
+                <div class="userProf">
+                    <h3 class="nameUser">Jim R</h3>
+                    <h3 id="count2">9 like(s)</h3>
+                    <button onclick="addLike2(this)" id="Like">Like</button>
+                </div>
+                <div class="comment">
+                    <p>I can't stop listening to the <span class="link">new album</span>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

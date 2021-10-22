@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.userContainer{
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 500px;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.userProf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameUser, #count{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#Like{
+    height: 30px;
+    width: 85px;
+    background-color: goldenrod;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 0px 5px 5px 5px;
+}
+
+.comment{
+    margin: 0px;
+    padding: 15px 10px 5px 10px;
+    display: flex;
+    align-content: center;
+}
